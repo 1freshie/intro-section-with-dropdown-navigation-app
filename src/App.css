@@ -42,7 +42,7 @@ ul {
 }
 
 li {
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
 }
 
@@ -64,8 +64,59 @@ a:active {
   align-items: center;
 }
 
+.logo {
+  width: 20%;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.dropdown .dropbtn {
+  color:hsl(0, 0%, 41%);
+  font-weight: 500;
+  border: 0;
+  background: 0;
+  font-family: inherit;
+  margin: 0;
+  cursor: pointer;
+}
+
+.dropdown .dropbtn:active {
+  color:hsl(0, 0%, 8%);
+}
+
+.dropdown-content {
+  display: none;
+  z-index: 1;
+  position: absolute;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; */
+  padding: 10px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border: 0;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+  padding: 10px;
+  margin-left: 10px;
+  display: block;
+  text-align: left;
+}
+
+.show {
+  display: block;
+}
+
 .navbar .container {
-  width: 60%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,7 +130,7 @@ a:active {
 }
 
 .navbar .auth-container {
-  width: 40%;
+  width: 60%;
   display: flex;
   justify-content: right;
   align-items: center;
